@@ -17,7 +17,7 @@ POLY_API_SECRET      = os.environ.get("POLY_API_SECRET", "")
 POLY_API_PASSPHRASE  = os.environ.get("POLY_API_PASSPHRASE", "")
 BET_AMOUNT_USDC      = 2.0
 CONFIDENCE_THRESHOLD = 7          # ✅ FIXED: lowered from 8 to 7 (more realistic)
-CHECK_INTERVAL_SEC   = 3600
+CHECK_INTERVAL_SEC   = 900
 DRY_RUN              = os.environ.get("DRY_RUN", "true").lower() == "true"
 
 POLY_HOST  = "https://clob.polymarket.com"
